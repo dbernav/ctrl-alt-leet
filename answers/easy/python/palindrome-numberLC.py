@@ -11,11 +11,11 @@ Breakdown:
     1. Compare digits at position 0 and 3 (the same as step 2 in the previous part)
     2. Compare digits at position 1 and 2 (the iterative step - this proves that we can indeed repeat step 1 infinitely)
     
-    Ok, now we can repeat the process...once. what about an absurdly large number like 123456789098765432112345...[etc]? How do we iterate
+    Ok, now we can repeat the process...once. What about an absurdly large number like 123456789098765432112345...[etc]? How do we iterate
     over a number that big?
     
     Well if we break down what we are doing even more, we can see that we are comparing the first and last digit (and every subsequent 
-    pair of digits following that pattern) form pairs. So if we divide the length by 2, and use that for the limit of our loop,
+    pair of digits following that patternn) as pairs. So if we divide the length of the number by 2, and use that for the limit of our loop,
     we don't need to worry about the 2nd half of the number. If the numbers in the first half match the numbers in the second, 
     we're done anyways.
     
