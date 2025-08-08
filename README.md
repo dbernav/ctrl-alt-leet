@@ -15,12 +15,14 @@ A public log of my programming journey -- solving problems from Leetcode, Hacker
 ## How to read this repo:
 
 ### Folders
+```
 └───answers
     ├───easy
     │   ├───cpp
     │   └───python
     ├───hard
     └───medium
+```
 
 ## File Naming Convention
 {problem-name}{LC/HR}{wildcard}.{file-extension}
