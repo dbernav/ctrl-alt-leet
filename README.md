@@ -15,6 +15,8 @@ A public log of my programming journey -- solving problems from Leetcode, Hacker
 ## How to read this repo:
 
 ### Folders
+The folders separate files by difficulty and then by language, like so:
+
 ```
 └───answers
     ├───easy
